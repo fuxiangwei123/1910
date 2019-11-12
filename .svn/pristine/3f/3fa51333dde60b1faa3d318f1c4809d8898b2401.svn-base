@@ -1,0 +1,124 @@
+.main{
+    position: relative;
+}
+.list1 .aside{
+    height: 620px;
+    width: 212px;
+}
+.list1 .aside h3{
+    line-height: 33px;
+    background-color: #ffa800;
+    text-align: center;
+    height: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+.list1 .aside .hot-list{
+    padding-top: 15px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ececec;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+}
+.list1 .aside .hot-list p{
+    height: 32px;
+}
+.list1 .aside .hot-list p em{
+    float: left;
+    height: 15px;
+    width: 17px;
+    background: url(../images/em.jpg) no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.list1 .aside .hot-list p a{
+    float: left;
+    padding: 0 4px;
+    height: 15px;
+    font: 12px/15px "";
+}
+.list1 .aside .hot-list .li-b{
+    padding-bottom: 15px;
+}
+.list1 .aside .hot-list .li-b img{
+    width: 48px;
+    height: 62px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+.list1 .aside .hot-list .li-br span{
+    height: 20px;
+    display: block;
+    font: 12px/20px "";
+    padding: 0 4px;
+}
+.intro{
+    padding: 15px 0 0 10px;
+}
+.intro-t{
+    margin-bottom: 10px;
+}
+.intro-t .fangda{
+    width: 300px;
+}
+.intro-t .fangda .photo{
+    padding: 10px;
+    position: relative;
+    /* overflow: hidden; */
+    padding-left: 20px;
+    /* height: 276px; */
+}
+.intro-t .fangda .photo-l{
+    width: 250px;
+    position: relative;
+}
+.intro-t .fangda .photo-l .kong{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    background:rgb(193, 180, 211);
+    opacity: .6;
+}
+.intro-t .fangda .photo-l .ts{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    height: 338px;
+}
+.intro-t .fangda .photo-r{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    top: 10px;
+    left: 285px;
+    border: 1px solid #000;
+    background: url(../images/112553503.jpg) no-repeat center center;
+    background-size: 443px 600px;
+}
+.intro-t .fangda .send{
+    margin: 15px auto 0;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+.intro-t .fangda .send img{
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+.intro-t .detail{
+    padding-left: 20px;
+    /* height: 430px; */
+    color: #000;
+}
