@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/xinhua.css" />
+    <link rel="stylesheet" href="./css/public.css" />
+</head>
+
+<body>
+    <div class="top clear">
+        <div class="con">
+            <div class="top-l fl">
+                <span class="wel">欢迎光临新华图书网</span>
+                <span class="wel-c">
+                    <a href="login.html">[登录]</a>
+                    <a href="login.html">[注册]</a>
+                </span>
+            </div>
+            <div class="top-r fr">
+                <span>我的账户</span>
+                <span>加QQ群</span>
+                <span>订单查询</span>
+                <span>新华书店微博</span>
+            </div>
+        </div>
+    </div>
+    <div class="header con clear">
+        <div class="logo fl"><a href="#"><img src="images/logo.jpg" /></a></div>
+        <div class="header-c fl clear">
+            <div class="search">
+                <input type="text" class="txt fl" />
+                <input type="submit" value="搜索" class="btn fl" />
+                <a class="sear fl" href="#">高级搜索</a>
+            </div>
+        </div>
+        <div class="header-r fr clear">
+            <div class="box1 fl">
+                <a href="#"><img src="images/ts3.jpg"><span>4000608760</span></a>
+            </div>
+            <div class="box2 fl">
+                <a href="#"><img src="images/ts1.jpg" width="49" height="35"><span>69元免费</span></a>
+            </div>
+            <div class="box3 fl">
+                <a href="#"><img src="images/ts2.jpg" width="49" height="35"><span>正品保障</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="con">
+            <div class="nav-top clear">
+                <div class="all fl">
+                    <h3>所有商品分类</h3>
+
+                </div>
+                <div class="nav-c fl">
+                    <ul>
+                        <li class="active one"><a href="#">首页</a></li>
+                        <li><a href="#">图书</a></li>
+                        <li><a href="#">团购</a></li>
+                        <li><a href="#">活动资讯</a></li>
+                        <li><a href="#">会员俱乐部</a></li>
+                        <li><a href="#">书香礼卡</a></li>
+                        <li><a href="#">书籍市场</a></li>
+                    </ul>
+                </div>
+                <div class="nav-r fr">
+                    <img src="images/navto_buy1.jpg" />
+                    <span>购物车：<b>0</b>件</span>
+                    <img src="images/navto_buy_btn.jpg" />
+                </div>
+            </div>
+            <div class="nav-bot">
+                <ul>
+                    <li class="active first">
+                        <a href="#" target="_blank">图书畅销榜</a>
+                        <a href="#" target="_blank">新书上架</a>
+                        <a href="#" target="_blank">特价图书</a>
+                        <a href="#" target="_blank">会员专供</a>
+                        <a href="#" target="_blank">积分商场</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">社科</a>
+                        <a href="#" target="_blank">经管</a>
+                        <a href="#" target="_blank">文学</a>
+                        <a href="#" target="_blank">生活</a>
+                        <a href="#" target="_blank">少儿</a>
+                        <a href="#" target="_blank">文艺</a>
+                        <a href="#" target="_blank">科技</a>
+                        <a href="#" target="_blank">文教</a>
+                        <a href="#" target="_blank">音乐</a>
+                        <a href="#" target="_blank">辞书</a>
+                        <a href="#" target="_blank">图书畅销榜</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">蔡康永爱情短信:未知的恋人</a>
+                        <a href="#" target="_blank">莫言文集（全新20部）</a>
+                        <a href="#" target="_blank">官场笔记（1-8 ）</a>
+
+                    </li>
+                    <Li>
+                        <a href="#" target="_blank">店内活动</a>
+                        <a href="#" target="_blank">特价活动</a>
+                        <a href="#" target="_blank">特价图书</a>
+                        <a href="#" target="_blank">会员专供</a>
+                        <a href="#" target="_blank">积分商场</a>
+                    </Li>
+                    <li>
+                        <a href="#" target="_blank">官场笔记（1-8 ）</a>
+                        <a href="#" target="_blank">蔡康永爱情短信:未知的恋人</a>
+                        <a href="#" target="_blank">特价活动</a>
+                        <a href="#" target="_blank">特价图书</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">官场笔记（1-8 ）</a>
+                        <a href="#" target="_blank">蔡康永爱情短信:未知的恋人</a>
+                        <a href="#" target="_blank">特价活动</a>
+                        <a href="#" target="_blank">特价图书</a>
+                        <a href="#" target="_blank">会员专供</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">官场笔记（1-8 ）</a>
+                        <a href="#" target="_blank">蔡康永爱情短信:未知的恋人</a>
+                        <a href="#" target="_blank">特价活动</a>
+                        <a href="#" target="_blank">特价图书</a>
+                        <a href="#" target="_blank">特价图书</a>
+                        <a href="#" target="_blank">会员专供</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="con main clear list1">
+        <div class="aside fl">
+            <h3>畅销排行榜</h3>
+            <div class="hot-list">
+                <ul>
+                    <li>
+                        <p class="clear"><em>1</em><a href="content.html" class="over">云边有个小卖部</a></p>
+                        <div class="li-b clear">
+                            <img src="images/112553503.jpg">
+                            <div class="li-br">
+                                <span>作者：杨帆</span>
+                                <span>原价：￥39.00</span>
+                                <span>现价：￥23.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="clear"><em>2</em><a href="content.html" class="over">云边有个小卖部</a></p>
+                        <div class="li-b clear">
+                            <img src="images/4212572.jpg">
+                            <div class="li-br">
+                                <span>作者：杨帆</span>
+                                <span>原价：￥39.00</span>
+                                <span>现价：￥23.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="clear"><em>3</em><a href="content.html" class="over">云边有个小卖部</a></p>
+                        <div class="li-b clear">
+                            <img src="images/4767733.jpg">
+                            <div class="li-br">
+                                <span>作者：杨帆</span>
+                                <span>原价：￥39.00</span>
+                                <span>现价：￥23.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="clear"><em>4</em><a href="content.html" class="over">云边有个部</a></p>
+                    </li>
+                    <li>
+                        <p class="clear"><em>5</em><a href="content.html" class="over">云小卖部</a></p>
+                    </li>
+                    <li>
+                        <p class="clear"><em>6</em><a href="content.html" class="over">云边有卖部</a></p>
+                    </li>
+                    <li>
+                        <p class="clear"><em>7</em><a href="content.html" class="over">个小卖部</a></p>
+                    </li>
+                    <li>
+                        <p class="clear"><em>8</em><a href="content.html" class="over">云边有卖部</a></p>
+                    </li>
+                    <li>
+                        <p class="clear"><em>9</em><a href="content.html" class="over">云边有部</a></p>
+                    </li>
+                    <li>
+                        <p class="clear"><em>10</em><a href="content.html" class="over">云卖部</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="intro fl">
+           <div class="intro-t clear">
+                <div class="fl fangda">
+                    <deiv class="photo">
+                        <div class="photo-l">
+                            <img src="images/112553503.jpg" class="classmax" >
+                            <div class="kong"></div>
+                        </div>
+                        <div class="photo-r">
+                            <img src="http://www.sybooks.com.cn/UploadCover/2018/12/07/112550581.jpg" >
+                        </div>
+                    </deiv>
+                    <div class="send">
+
+                    </div>
+                </div>
+                <div class="detail">
+
+                </div>
+           </div>
+           <div class="intro-b">
+
+           </div>
+        </div>
+    </div>
+
+    <div class="footer con clear">
+        <div class="footer_logo fl"><img src="images/ft_1.jpg" width="268" height="32"><br>
+            <img src="images/ft2.jpg" width="252" height="58"></div>
+        <div class="footer_gn clear fl">
+            <div class="howpay_box">
+                <h3><img src="images/f2.jpg" width="25" height="25"><span>新手入门</span></h3>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="style3">购物保障</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">购物流程</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">会员制度</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">常见问题</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">联系客服</span></a></li>
+                </ul>
+            </div>
+            <div class="howpay_box">
+                <h3><img src="images/f3.jpg" width="25" height="25"><span>特色服务</span></h3>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="style3">书香礼品卡</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">其它服务</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">团购优惠</span></a></li>
+                </ul>
+            </div>
+            <div class="howpay_box">
+                <h3><img src="images/f4.jpg" width="25" height="25"><span>支付方式</span></h3>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="style3">货到付款</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">在线支付</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">邮局汇款</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">银行转帐/汇款</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">公司转账</span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="howpay_box">
+                <h3><img src="images/f5.jpg" width="25" height="25"><span>配送服务</span></h3>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="style3">配送方式</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">收费标准</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">快递查询入口</span></a></li>
+                    <li><a href="#" target="_new"><span class="style3">验货与签收</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="howpay_box">
+                <h3><img src="images/f6.jpg" width="25" height="25"><span>售后服务</span></h3>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="style3">退换货规则</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">退换货流程</span></a>
+                    </li>
+                    <li><a href="#" target="_blank"><span class="style3">退换货方式说明</span></a></li>
+                </ul>
+            </div>
+            <div class="howpay_box">
+                <h3><img src="images/f1.jpg" width="25" height="25"><span>帮助中心</span></h3>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="style3">我的订单</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">常见问题</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">找回密码</span></a></li>
+                    <li><a href="#" target="_blank"><span class="style3">关于我们</span></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="con fot">
+        <br>
+        战略合作伙伴：
+        <a href="#" target="_blank">
+            <img src="images/eye_logo.jpg">
+        </a>
+        <a href="#" target="_blank">
+            <img src="images/bookaskLOGO.jpg" height="26" style="vertical-align:middle;">
+        </a>
+        <br>
+        地址：沈阳市和平区中山路70号 新华大厦1607室&nbsp;&nbsp; 邮编:110001 &nbsp;&nbsp;客服:400-060-8760
+        <br>
+        增值电信业务经营许可证:辽B2-20130065
+        <br>
+        辽ICP备09000237号-6 辽ICP备09000237号-1
+        <br>
+        <a href="#"><img border="0" dragover="true" src="images/footaq_logo.png"></a>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/ajax.js"></script>
+
+</html>

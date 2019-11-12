@@ -1,0 +1,60 @@
+.main{
+    position: relative;
+}
+.list1 .aside{
+    height: 620px;
+    width: 212px;
+}
+.list1 .aside h3{
+    line-height: 33px;
+    background-color: #ffa800;
+    text-align: center;
+    height: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+   
+}
+.list1 .aside .hot-list{
+    padding-top: 15px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ececec;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+}
+.list1 .aside .hot-list p{
+    height: 32px;
+}
+.list1 .aside .hot-list p em{
+    float: left;
+    height: 15px;
+    width: 17px;
+    background: url(../images/em.jpg) no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.list1 .aside .hot-list p a{
+    float: left;
+    padding: 0 4px;
+    height: 15px;
+    font: 12px/15px "";
+}
+.list1 .aside .hot-list .li-b{
+    padding-bottom: 15px;
+}
+.list1 .aside .hot-list .li-b img{
+    width: 48px;
+    height: 62px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+.list1 .aside .hot-list .li-br span{
+    height: 20px;
+    display: block;
+    font: 12px/20px "";
+    padding: 0 4px;
+}

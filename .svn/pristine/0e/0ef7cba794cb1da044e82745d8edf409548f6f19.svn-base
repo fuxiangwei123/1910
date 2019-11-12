@@ -1,0 +1,28 @@
+.main p img{
+    height: 170px;
+    width: 1000px;
+}
+.main .cont{
+    border: 10px solid #eddebf;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #FFF;
+}
+.main .cont dl{
+    width: 240px;
+    background: url(../images/x.gif) no-repeat right;
+   margin-bottom: 22px;
+    text-align: center;
+    float: left;
+}
+.main .cont dl dt img{
+    height: 155px;
+    width: 110px;
+}
+.main .cont dl dd{
+    margin: 0 auto;
+    width: 150px;
+    height: 20px;
+    font: 12px/20px "";
+}
