@@ -201,7 +201,7 @@
                 <div class="fl fangda">
                     <div class="photo">
                         <div class="photo-l" id="wrap">
-                            <img class="ts" src="images/112553503.jpg" >
+                            <img class="ts" src="images/112553503.jpg">
                             <div class="kong" id="box"></div>
                         </div>
                         <div class="photo-r" id="bigerea">
@@ -232,9 +232,9 @@
                     <div class="mai">
                         <div class="mai-t">
                             我要买：
-                            <input type="image" src="images/count_04.jpg" class="tu up" name="up" >
+                            <input type="image" src="images/count_04.jpg" class="tu up" name="up">
                             <input type="text" value="${this.goods[j].num}" class="txt">
-                            <input type="image" src="images/count_02.jpg" class="tu down" name="down">    
+                            <input type="image" src="images/count_02.jpg" class="tu down" name="down">
                             件
                         </div>
                         <div class="mai-b clear">
@@ -350,12 +350,13 @@
 <script src="js/ajax.js"></script>
 <script src="js/cookie.js"></script>
 <script>
-    class Car {
+    class Con {
         constructor(options) {
             this.url = options.url;
             this.intro = options.intro;
+            this.num = options.num;
             this.load();
-            this.addEvent();
+            
         }
         load() {
             var that = this;
@@ -376,14 +377,13 @@
             for (var i = 0; i < this.res.length; i++) {
                 if (this.res[i].goodsId === this.goodss[0].index) {
                     console.log(this.goodss[0].index);
-                    console.log(1);
                     str = `<div class="fl fangda">
                     <div class="photo">
                         <div class="photo-l" id="wrap">
-                            <img class="ts" src="images/112553503.jpg" >
+                            <img class="ts" src="${this.res[i].img}" >
                             <div class="kong" id="box"></div>
                         </div>
-                        <div class="photo-r" id="bigerea">
+                        <div class="photo-r" id="bigerea" style="background-image: url(${this.res[i].img});">
                         </div>
                     </div>
                     <div class="send">
@@ -395,12 +395,12 @@
                         <img src="images/gb.jpg">
                     </div>
                 </div>
-                <div class="detail fl">
-                    <div class="name d1">等我出门不能让女人</div>
-                    <div class="vipprice d1">现价：<span>20.22</span>元</div>
-                    <div class="price d1">定价：￥<span>20.22</span></div>
-                    <div class="zhe d1"><span>折扣：<b>2.55</b>折</span><em>节省：￥<b>2.22</b>元</em></div>
-                    <div class="stock d1">库存：212222</div>
+                <div class="detail fl" index="${this.res[i].goodsId}">
+                    <div class="name d1">${this.res[i].name}</div>
+                    <div class="vipprice d1">现价：<span>${this.res[i].vipprice}</span>元</div>
+                    <div class="price d1">定价：￥<span>${this.res[i].price}</span></div>
+                    <div class="zhe d1"><span>折扣：<b>${(this.res[i].vipprice / this.res[i].price).toFixed(2)}</b>折</span><em>节省：￥<b>${(this.res[i].price - this.res[i].vipprice).toFixed(2)}</b>元</em></div>
+                    <div class="stock d1">库存：${this.res[i].stock}</div>
                     <div class="line" id="line"></div>
                     <div class="writer">
                         <div class="wname d1"><span>作者：杨帆</span><em>出生日期：2012/2/2</em></div>
@@ -412,7 +412,7 @@
                         <div class="mai-t">
                             我要买：
                             <input type="image" src="images/count_04.jpg" class="tu up" name="up" >
-                            <input type="text" value="" class="txt">
+                            <input type="text" value="${this.goodss[0].sum}" class="txt">
                             <input type="image" src="images/count_02.jpg" class="tu down" name="down">    
                             件
                         </div>
@@ -427,6 +427,7 @@
             }
             this.intro.innerHTML = str;
             this.fa();
+            this.addEvent();
         }
         fa() {
             var wrap = document.getElementById("wrap");
@@ -501,43 +502,35 @@
             }
         }
         addEvent() {
-            // var that = this;
-            // this.tbody.addEventListener("click", function (eve) {
-            //     if (eve.target.className == "tu up"){     
-            //         that.id = eve.target.parentNode.parentNode.getAttribute("index");
-            //         eve.target.nextElementSibling.value=+eve.target.nextElementSibling.value+1;
-            //         that.value=eve.target.nextElementSibling.value;
-            //         that.updateCookie(function (i) {
-            //             that.goods[i].num=that.value;
-            //             that.display();
-            //         });
-            //     }
-            //     if (eve.target.className == "tu down"){     
-            //         that.id = eve.target.parentNode.parentNode.getAttribute("index");
-            //         eve.target.previousElementSibling.value=+eve.target.previousElementSibling.value-1;
-
-            //         that.value=eve.target.previousElementSibling.value;
-            //         that.updateCookie(function (i) {
-            //             that.goods[i].num=that.value;
-            //             that.display();
-            //         });
-            //     }
-            // });
-
+            var that = this;
+            // console.log(this.num);
+            this.num.addEventListener("click", function (eve) {
+                if (eve.target.className == "tu up") {
+                    console.log(1);
+                    that.index = eve.target.parentNode.parentNode.parentNode.getAttribute("index");
+                    console.log(2);
+                    eve.target.nextElementSibling.value = +eve.target.nextElementSibling.value + 1;
+                    that.value = eve.target.nextElementSibling.value;
+                    that.goodss[0].sum = that.value;
+                    that.display();
+                }
+                if (eve.target.className == "tu down") {
+                    that.index = eve.target.parentNode.parentNode.parentNode.getAttribute("index");
+                    eve.target.previousElementSibling.value = +eve.target.previousElementSibling.value - 1;
+                    that.value = eve.target.previousElementSibling.value;
+                    that.updateCookie(function (i) {
+                        that.goodss[0].sum = that.value;
+                        that.display();
+                    });
+                }
+            })
         }
-        // updateCookie(cb){
-        //     for (var i = 0; i < this.goods.length; i++) {
-        //         if (this.goods[i].id === this.id) {
-        //             cb(i);
-        //         }
-        //     }
-        //     setCookie("goods",JSON.stringify(this.goods));
-        // }
     }
 
-    new Car({
+    new Con({
         url: "http://localhost/xinhua/shop.json",
-        intro: document.querySelector(".intro-t")
+        intro: document.querySelector(".intro-t"),
+        num: document.querySelector(".mai")
     })
 
 

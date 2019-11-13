@@ -78,7 +78,7 @@ class List{
                     num:1
                 })
             }
-     
+
         }
         // 8.数组的操作结束后，一定要再存回cookie
         setCookie("goods",JSON.stringify(this.goods));
@@ -86,7 +86,8 @@ class List{
     settCookie(){
         this.goodss =[];
         this.goodss.push({
-            index:this.index
+            index:this.index,
+            sum:1
         })
         setCookie("goodss",JSON.stringify(this.goodss));
     }

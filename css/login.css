@@ -1,0 +1,102 @@
+.main{
+    padding: 30px;
+}
+.header{
+    border-bottom: 8px solid #28a6e3;
+}
+.main-t{
+    background-image: url(../images/jlb_bp.jpg);
+    background-repeat: repeat-x;
+    height: 33px;
+    font: 700 14px/33px "";
+    color: #FFF;
+    padding-left: 20px;
+}
+.main-b{
+    border: 1px solid #ececec;
+    border-top: none;
+    padding: 20px;
+}
+.mainl{
+    border-right: 1px solid #ececec;
+    width: 450px;
+}
+.th{
+    width: 390px;
+    border-bottom: solid 1px #ccc;
+    margin: 0 auto;
+    height: 35px;
+    margin-bottom: -1px;
+}
+.th a{
+    font: 700 14px/35px "";
+    color: #000;
+    height: 35px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.th .a1{
+    width: 110px;
+    background-color: #D1D1D1;
+    text-align: center;
+}
+.th .a2{
+    width: 150px;
+    background-color: #f4f4f4;
+}
+.th .a2 img{
+    margin-left: 10px;
+}
+.tb{
+    padding: 10px;
+}
+.tb div input{
+    float: left;
+    height: 20px;
+    width: 242px;
+    border: none;
+    border: 1px solid #ccc;
+}
+.tb div span{
+    float: left;
+    text-align: right;
+    width: 95px;
+    font: 12px/22px "";
+}
+.tb div{
+  height: 22px;
+  padding: 11px 0;
+}
+.tb .btn1{
+    margin-left: 95px;
+    padding: 11px 0;
+    vertical-align: middle;
+}
+.tb .btn2{
+    margin-left: 10px;
+    padding: 11px 0;
+    vertical-align: middle;
+}
+.tb a{
+    display: inline-block;
+    color: blueviolet;
+    margin-left: 10px;
+}
+.dl_title1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    line-height: 25px;
+    height: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.mainr a img{
+    margin-top: 18px;
+}
+.mainr{
+    padding-left: 40px;
+    width: 400px;
+    text-align: center;
+    
+}

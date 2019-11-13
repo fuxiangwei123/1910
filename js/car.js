@@ -99,8 +99,6 @@ class Car {
                     that.count3=0;
                     that.display();
                 });
-            
-                
             }
         })
     }
